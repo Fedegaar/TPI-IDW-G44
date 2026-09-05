@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Telma-Black';
+    src: url('../Assets/Fonts/Telma/Telma-Black.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist-ExtraBold';
+    src: url('../Assets/Fonts/Geist/Geist-ExtraBold.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist-SemiBold';
+    src: url('../Assets/Fonts/Geist/Geist-SemiBold.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist-Light';
+    src: url('../Assets/Fonts/Geist/Geist-Light.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    display: grid; 
+    grid-template-columns: 1fr auto 1fr; 
+    align-items: center;       
+    padding: 20px 30px;
+    background-color: #ffffff;   
+}
+
+.navbar ul {
+    display: flex;            
+    align-items: center;
+    justify-content: center;
+    gap: 40px;                 
+    list-style: none;          
+    margin: 0;
+    padding: 0;
+}
+
+.btn-derecha {
+    justify-self: end; 
+}
+
+.link {
+    font-family: 'Geist-SemiBold', sans-serif;
+    text-decoration: none;     
+    color: #00171f;               
+    font-size: 16px;
+    transition: all 0.3s ease; 
+}
+
+.link:hover {
+    color: #00a8e8;
+    transform: scale(1.05);  
+}
+
+.logo {
+    font-family: 'Telma-Black', sans-serif;
+    color: #00171f;    
+    font-size: 32px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Geist-ExtraBold', sans-serif;
+}
+
+p {
+    font-family: 'Geist-Light', sans-serif;
+}
+
+main {
+    background-color: #007ea7; 
+    color: #ffffff;            
+    padding: 20px;             
+    min-height: 100vh;  
+    text-align: center;      
+}
+
+.boton {
+    background-color: #00171f;
+    color: #ffffff;           
+    border: none;             
+    padding: 12px 24px;       
+    
+    /*border-radius: 8px;   */    
+    
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;           
+    transition: all 0.3s ease; 
+}
+
+/* Efecto al pasar el mouse por encima */
+.boton:hover {
+    background-color: #00a8e8; 
+    transform: scale(1.05);  
+}
+
+
+footer {
+    font-family: 'Geist-Light', sans-serif;
+    text-align: center;  
+    align-items: center;       
+    padding: 12px 18px;
+    background-color: #003459;  
+    color:#ffffff
+}
+/* #77bc1f ffffff 123a4b 23964b
+
+/* 00171f 003459 007ea7 00a8e8
