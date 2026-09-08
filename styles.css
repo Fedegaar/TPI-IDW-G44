@@ -81,17 +81,18 @@ main {
     color: #ffffff;            
     padding: 20px;             
     min-height: 100vh;  
-    text-align: center;      
+    text-align: center;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
 }
 
 .boton {
     background-color: #00171f;
     color: #ffffff;           
-    border: none;             
+    border: none;          
     padding: 12px 24px;       
-    
-    /*border-radius: 8px;   */    
-    
+    border-radius: 8px;   
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;           
@@ -113,6 +114,10 @@ footer {
     background-color: #003459;  
     color:#ffffff
 }
-/* #77bc1f ffffff 123a4b 23964b
 
-/* 00171f 003459 007ea7 00a8e8
+
+img {
+    width: 400px;
+    border-radius: 6%;
+
+}
