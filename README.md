@@ -1,3 +1,5 @@
-siiiiiiiiiiiiiiii hice el readme
-Me ganó de mano 
-VETERINARIA OJETO JAJAJAJAJAJAJAJA
+# Integrantes
+- VIllaverde Zarate Branko
+- Zarate Villaverde Ivo
+- Garcia Federico
+- Bonino Ivan
