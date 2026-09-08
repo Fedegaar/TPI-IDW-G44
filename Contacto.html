@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contacto - Veterinaria Ojeto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -21,9 +21,56 @@
         </nav>
     </header>
 
-    <main>
+    <main class="maincontainer">
         <h1>Contacto</h1>
-        <p> El hermano del otro texto </p>
+        <p>¿Tu mascota necesita atención o tenés alguna duda? Dejanos tu mensaje y te responderemos a la brevedad.</p>
+
+        <!-- Sección de datos de contacto -->
+        <section>
+            <h2>Nuestros datos</h2>
+            <ul>
+                <li>📍 Dirección: Monseñor Tavella 1424, E3200 Concordia, Entre Ríos</li>
+                <li>📞 Teléfono:  0345 423-1400</li>
+                <li>📧 Email: info@veterinariaojeto.com</li>
+            </ul>
+        </section>
+
+        <br>
+
+        <!-- Formulario de contacto básico -->
+        <section>
+            <h2>Envianos un mensaje</h2>
+            <form action="#" method="POST">
+                
+                <p>
+                    <label for="nombre">Nombre y Apellido:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="motivo">Motivo de la consulta:</label><br>
+                    <select id="motivo" name="motivo">
+                        <option value="turno">Reserva de turno</option>
+                        <option value="consulta">Consulta general</option>
+                        <option value="urgencia">Urgencia médica</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea>
+                </p>
+
+                <!-- Reutilizamos tu clase "boton" para mantener el estilo -->
+                <button type="submit" class="boton">ENVIAR MENSAJE</button>
+
+            </form>
+        </section>
     </main>
         
     <footer>
