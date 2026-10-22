@@ -200,3 +200,16 @@ body{
     align-items: flex-end;
     padding: 20px 0;
 }
+
+.card-header{
+    background-color: var(--verde-ojeto);
+}
+
+.boton-guardar{ 
+    background-color: var(--azul-ojeto);
+    color: var(--blanco);
+    
+}
+.boton-guardar:hover{
+    background-color: var(--verde-hover);
+}
